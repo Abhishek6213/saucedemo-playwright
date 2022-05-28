@@ -1,0 +1,8 @@
+{
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "javascript.preferences.quoteStyle": "single",
+    "path-intellisense.absolutePathToWorkspace": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 5
+}

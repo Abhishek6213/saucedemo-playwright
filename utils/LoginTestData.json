@@ -1,0 +1,17 @@
+[
+    {
+        "Username": "standard_user",
+        "password": "secret_sauce",
+        "validationMessage": "Products"
+    },
+    {
+        "Username": "problem_user",
+        "password": "secret_sauce",
+        "validationMessage": "Products"
+    },
+    {
+        "Username": "performance_glitch_user",
+        "password": "secret_sauce",
+        "validationMessage": "Products"
+    }
+]
