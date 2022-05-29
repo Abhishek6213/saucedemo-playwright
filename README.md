@@ -32,7 +32,7 @@ In [LoginTestData.json](https://github.com/Abhishek6213/saucedemo-playwright/blo
 Default - Project is configured to run all the test classes( CartScenarios, CheckoutScenarios, InventoryScenarios, MenuScenarios) for 3 users - standard_user, problem_user, performance_glitch_user <br/>
 LoginScenarios is configured to run for all User combinations.
 
-# Test Scenarios covered - 
+# Test Scenarios covered
 
 1. <b> Login Scenarios </b> - Here the test cases covered are - Login with various users like - standard_user, problem_user, performance_glitch_user,problem_user, empty user name/password, Validate api error messages when unauthorized users try to login various APIs etc. [LoginScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/LoginScenarios.spec.js)
 
@@ -45,7 +45,7 @@ LoginScenarios is configured to run for all User combinations.
 5. <b> Menu RESET Scenarios </b> - Here the test cases covered are - Login->Add Items to Cart->Logout->Login, RESET App state, ABOUT etc at Menu Page. [MenuResetScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/MenuResetScenarios.spec.js)
 
 
-# Test Results / Reporting - 
+# Test Results / Reporting 
 
 1. To generate 'HTML' Reports, run - 'npx playwright test'. This will generate HTML Rports, which will automatically open in local browser in case of any failures, while if all the test cases pass, it can be opened in browser with the command - 'npx-playwright-report'.
 
