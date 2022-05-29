@@ -55,12 +55,13 @@ LoginScenarios is configured to run for all User combinations.
 
   Other HTML reports are in [html-reports](https://github.com/Abhishek6213/saucedemo-playwright/tree/main/html-reports). You can clone the repository and   open these in a browser to get insight of test results.
 
-2. To generate 'Allure' Reports, run following commands: <br/>
-         a. `npx playwright test --reporter=line,allure-playwright` <br/>
+2. To generate 'Allure' Reports, run following commands: <br/> 
 
-         b. `allure generate allure-results --clean -o allure-report` <br/>
+         a. npx playwright test --reporter=line,allure-playwright <br/>
 
-         c. `allure open ./allure-report` <br/>
+         b. allure generate allure-results --clean -o allure-report <br/>
+
+         c. allure open ./allure-report <br/>
          
   <b> Allure Report for Standard User </b>
  
