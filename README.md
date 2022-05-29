@@ -8,15 +8,15 @@ It contains automation of 5 major test scenarios of the Application
 Follow below steps to run the project in your local :
 
 1. Open a new terminal and clone the main project by using the following command
-   <br/> git clone https://github.com/Abhishek6213/saucedemo-playwright.git
+   <br/> `git clone https://github.com/Abhishek6213/saucedemo-playwright.git`
    
-2. Install [node.js](https://nodejs.org/en/) to run the tests in the local system.
+2. Install [node.js](https://nodejs.org/en/) to run the tests in the local system
 
-3. Navigate to the saucedemo project using - cd saucedemo-playwright.
+3. Navigate to the saucedemo project using - `cd saucedemo-playwright`
 
-4. Install Playwright using the command - npm install -D @playwright/test
+4. Install Playwright using the command - `npm install -D @playwright/test`
 
-5. Execute tests using the command - npx playwright test
+5. Execute tests using the command - `npx playwright test`
 
 
 # Various configurations to run the Playwright tests for saucedemo <br/>
@@ -56,9 +56,9 @@ LoginScenarios is configured to run for all User combinations.
   Other HTML reports are in [html-reports](https://github.com/Abhishek6213/saucedemo-playwright/tree/main/html-reports). You can clone the repository and   open these in a browser to get insight of test results.
 
 2. To generate 'Allure' Reports, run following commands: <br/>
-         a. npx playwright test --reporter=line,allure-playwright <br/>
-         b. allure generate allure-results --clean -o allure-report <br/>
-         c. allure open ./allure-report <br/>
+         a. `npx playwright test --reporter=line,allure-playwright` <br/>
+         b. `allure generate allure-results --clean -o allure-report` <br/>
+         c. `allure open ./allure-report` <br/>
          
   <b> Allure Report for Standard User </b>
  
