@@ -40,7 +40,7 @@ LoginScenarios is configured to run for all User combinations.
 
 3. <b> Cart Scenarios </b> - Here the test cases covered are - CONTINUE SHOPPING on Cart, REMOVE item from Cart, Checkout, Visibility of Checkout for Empty cart etc. [CartScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/CartScenarios.spec.js)
 
-4. <b> Checkout Scenarios </b> - Here the test cases covered are - CANCEL on checkout step one/checkout step two page, Error message for personl info missing, items and their cost on checkout step two page, end to end complete checkout process etc. [CheckoutScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/CheckoutScenarios.spec.js)
+4. <b> Checkout Scenarios </b> - Here the test cases covered are - CANCEL on checkout step one/checkout step two page, Error message for personal info missing, items and their cost on checkout step two page, end to end complete checkout process etc. [CheckoutScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/CheckoutScenarios.spec.js)
 
 5. <b> Menu RESET Scenarios </b> - Here the test cases covered are - Login->Add Items to Cart->Logout->Login, RESET App state, ABOUT etc at Menu Page. [MenuResetScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/MenuResetScenarios.spec.js)
 
