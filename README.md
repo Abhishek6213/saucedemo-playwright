@@ -1,6 +1,6 @@
 # Automation of saucedemo using Playwright
 
-We will be using [Playwright](https://playwright.dev/) to Automate [SauceDemo](https://www.saucedemo.com/). <br/>
+This project uses [Playwright](https://playwright.dev/) to Automate [SauceDemo](https://www.saucedemo.com/). <br/>
 This project [saucedemo](https://github.com/Abhishek6213/saucedemo-playwright) contains Automated test cases for the Application.
 
 # Overview
@@ -24,11 +24,11 @@ Follow below steps to run the project in your local :
 <h3> To Execute the tests in One/Multiple browsers </h3> 
 
 In [playwright.config.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/playwright.config.js), in the 'projects' array Add/Remove the browser objects as per the need. <br/>
-Default - Project is configured to run thr 3 browsers - Chrome, Firefox, Safari
+Default - Project is configured to run on 3 browsers - Chrome, Firefox, Safari
 
 <h3> To Execute the tests for various users </h3> 
 
-In [LoginTestData.json](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/utils/LoginTestData.json), use different users for which we wan to run all the tests. <br/>
+In [LoginTestData.json](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/utils/LoginTestData.json), use different users for which we want to run all the tests. <br/>
 Default - Project is configured to run all the test classes( CartScenarios, CheckoutScenarios, InventoryScenarios, MenuScenarios) for 3 users - standard_user, problem_user, performance_glitch_user <br/>
 LoginScenarios is configured to run for all User combinations.
 
