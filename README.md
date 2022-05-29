@@ -1,7 +1,7 @@
 # Automation of saucedemo using Playwright
 
 This project uses [Playwright](https://playwright.dev/) to Automate [SauceDemo](https://www.saucedemo.com/). <br/>
-This project [saucedemo](https://github.com/Abhishek6213/saucedemo-playwright) contains Automated test cases for the Application.
+It contains automation of 5 major test scenarios of the Application
 
 # Overview
 
@@ -23,8 +23,8 @@ Follow below steps to run the project in your local :
 
 <h3> To Execute the tests in One/Multiple browsers </h3> 
 
-In [playwright.config.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/playwright.config.js), in the 'projects' array Add/Remove the browser objects as per the need. <br/>
-Default - Project is configured to run on 3 browsers - Chrome, Firefox, Safari
+In [playwright.config.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/playwright.config.js), in the 'projects' array Add/Remove the browser objects and configure them to run in headless or UI mode as per need. <br/>
+Default - Project is configured to run on 3 browsers - Chrome, Firefox, Safari in UI mode
 
 <h3> To Execute the tests for various users </h3> 
 
