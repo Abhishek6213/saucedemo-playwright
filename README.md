@@ -49,18 +49,24 @@ LoginScenarios is configured to run for all User combinations.
 
 1. To generate 'HTML' Reports, run - 'npx playwright test'. This will generate HTML Rports, which will automatically open in local browser in case of any failures, while if all the test cases pass, it can be opened in browser with the command - 'npx-playwright-report'.
 
+  <b> HTML Report for Login Scenario </b>
+
+  <img width="851" alt="SauceDemo_Login" src="https://user-images.githubusercontent.com/17552876/170852765-1d16817e-b814-44dd-ba66-3747b2857c4a.png">
+
+  Other HTML reports are in [html-reports](https://github.com/Abhishek6213/saucedemo-playwright/tree/main/html-reports). You can clone the repository and   open these in a browser to get insight of test results.
+
 2. To generate 'Allure' Reports, run following commands: <br/>
          a. npx playwright test --reporter=line,allure-playwright <br/>
          b. allure generate allure-results --clean -o allure-report <br/>
          c. allure open ./allure-report <br/>
          
-<b> Allure Report for Standard User </b>
+  <b> Allure Report for Standard User </b>
  
  
    <img width="1779" alt="StandardUser_saucedemo" src="https://user-images.githubusercontent.com/17552876/170852531-364dda21-4285-4a2b-ac58-046abdd18dd1.png">
 
 
-<b> Allure Report for Problem User </b>
+  <b> Allure Report for Problem User </b>
 
 
    <img width="1782" alt="ProblemUser_saucedemo" src="https://user-images.githubusercontent.com/17552876/170852544-fca45c47-5680-49da-afdd-a84923029200.png">
