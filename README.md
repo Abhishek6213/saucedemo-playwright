@@ -45,6 +45,29 @@ LoginScenarios is configured to run for all User combinations.
 5. <b> Menu RESET Scenarios </b> - Here the test cases covered are - Login->Add Items to Cart->Logout->Login, RESET App state, ABOUT etc at Menu Page. [MenuResetScenarios.spec.js](https://github.com/Abhishek6213/saucedemo-playwright/blob/main/tests/MenuResetScenarios.spec.js)
 
 
+# Test Results / Reporting - 
+
+1. To generate 'HTML' Reports, run - 'npx playwright test'. This will generate HTML Rports, which will automatically open in local browser in case of any failures, while if all the test cases pass, it can be opened in browser with the command - 'npx-playwright-report'.
+
+2. To generate 'Allure' Reports, run following commands: <br/>
+         a. npx playwright test --reporter=line,allure-playwright <br/>
+         b. allure generate allure-results --clean -o allure-report <br/>
+         c. allure open ./allure-report <br/>
+         
+<b> Allure Report for Standard User </b>
+ 
+ 
+   <img width="1779" alt="StandardUser_saucedemo" src="https://user-images.githubusercontent.com/17552876/170852531-364dda21-4285-4a2b-ac58-046abdd18dd1.png">
+
+
+<b> Allure Report for Problem User </b>
+
+
+   <img width="1782" alt="ProblemUser_saucedemo" src="https://user-images.githubusercontent.com/17552876/170852544-fca45c47-5680-49da-afdd-a84923029200.png">
+
+   
+                                                                       
+         
 
 
 
