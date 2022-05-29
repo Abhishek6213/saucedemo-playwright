@@ -57,7 +57,9 @@ LoginScenarios is configured to run for all User combinations.
 
 2. To generate 'Allure' Reports, run following commands: <br/>
          a. `npx playwright test --reporter=line,allure-playwright` <br/>
+
          b. `allure generate allure-results --clean -o allure-report` <br/>
+
          c. `allure open ./allure-report` <br/>
          
   <b> Allure Report for Standard User </b>
@@ -73,8 +75,5 @@ LoginScenarios is configured to run for all User combinations.
 
    
                                                                        
-         
-
-
 
 
